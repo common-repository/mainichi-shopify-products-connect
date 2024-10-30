@@ -1,0 +1,322 @@
+.cpsSettingsSection {
+	padding: 80px 0;
+	margin-right: 16px;
+}
+
+.cpsSettingsSection .notice,
+.cpsSettingsSection div.error,
+.cpsSettingsSection div.updated {
+	margin: 0 0 40px;
+}
+
+.cpsSettingsSection div.saveMessage.updated {
+	margin: -32px 0 40px;
+}
+
+.cpsSettingsSection div.error {
+	border-left-color: orange;
+}
+
+.shopifyIcon {
+	height: 16px;
+	width: auto;
+	vertical-align: text-bottom;
+	margin-right: 8px;
+}
+
+.cpsGrayBackground {
+	background: rgba(0, 0, 0, 0.03);
+	border-radius: 3px;
+	padding: 24px 40px;
+}
+
+.cpsGrayBackground:not(:last-of-type) {
+	margin-bottom: 40px;
+}
+
+.cpsSettingsSection .form-table th {
+	width: 240px;
+}
+
+.cpsSettingsSection form {
+	margin-bottom: 24px;
+}
+
+.cpsSettingsSection .description {
+	margin-bottom: 24px;
+}
+
+.cpsSettingsSection .tableWrap {
+	border-bottom: 2px dotted rgba(0, 0, 0, 0.15);
+	padding-bottom: 40px;
+	margin-bottom: 24px;
+}
+
+.cpsSettingsSection .tableWrap:last-of-type {
+	border-bottom: none;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.cpsSettingsSection h3 {
+	display: inline-block;
+	font-size: 16px;
+	margin-bottom: 0;
+}
+
+.cpsSettingsSection h3::after {
+	content: "：";
+	display: inline-block;
+}
+
+.shopDataTable {
+	margin-bottom: 1em;
+}
+
+.shopDataTable th {
+	text-align: left;
+	padding-right: 16px;
+}
+
+.attributesTable {
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	padding: 16px 16px 8px;
+	border-spacing: 0;
+	line-height: 150%;
+	margin-bottom: 24px;
+}
+
+.attributesTable th {
+	width: 144px;
+	text-align: left;
+}
+
+.attributesTable td {
+
+}
+
+.attributesTable td:nth-of-type(1) {
+	width: 160px;
+}
+
+.attributesTable td:nth-of-type(2) {
+	width: 240px;
+}
+
+.attributesTable thead th,
+.attributesTable thead td {
+	font-weight: bold;
+	text-align: left;
+}
+
+.attributesTable tbody th,
+.attributesTable tbody td {
+	border-bottom: 1px dotted rgba(0,0,0,0.15);
+	padding: 16px 0;
+}
+
+.attributesTable tbody tr:last-of-type th,
+.attributesTable tbody tr:last-of-type td {
+	border-bottom: none;
+}
+
+.marginLeft16 {
+	margin-left: 16px;
+}
+
+.marginBottom24 {
+	margin-bottom: 24px;
+}
+
+.marginBottom40 {
+	margin-bottom: 40px;
+}
+
+.maxWidth640 {
+	max-width: 640px;
+}
+
+.displayNone {
+	display: none;
+}
+
+.flex {
+	display: flex;
+	display: -webkit-flex;
+}
+
+.flexBetween {
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+}
+
+.flexStartWrap {
+	justify-content: flex-start;
+	-webkit-justify-content: flex-start;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+}
+
+.flexEndWrap {
+	justify-content: flex-end;
+	-webkit-justify-content: flex-end;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+}
+
+.flexCenterColumn {
+	align-items: center;
+	-webkit-align-items: center;
+}
+
+#loading,
+.resultMessage {
+	position: fixed;
+	top: calc(50vh - 80px);
+	left: calc(50vw + 60px - 144px);
+	padding: 40px 24px;
+	background: rgba(0, 0, 0, 0.05);
+	width: 240px;
+	border-radius: 5px;
+}
+
+#loading img,
+.resultMessage img {
+	width: 32px;
+	height: auto;
+	display: block;
+	margin: 0 auto 24px;
+}
+
+#loading span,
+.resultMessage span {
+	display: table;
+	margin: 0 auto;
+	background: #79b656;
+	color: #fff;
+	padding: 8px 24px;
+	border-radius: 60px;
+	line-height: 14px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.resultMessage.resultMessageError span {
+	background: #ff0000;
+}
+
+/* 1280px */
+
+@media screen and (max-width: 1280px) {
+	.thumbnailImage {
+		width: 64px;
+		height: auto;
+	}
+}
+
+/* 960px */
+
+@media screen and (max-width: 960px) {
+	#loading,
+	.resultMessage {
+		left: calc(50vw + 8px - 144px);
+	}
+}
+
+
+/* 782px */
+
+@media screen and (max-width: 782px) {
+	.cpsSettingsSection {
+		margin-right: 8px;
+	}
+	#loading,
+	.resultMessage {
+		left: calc(50vw - 144px);
+	}
+	#product_thumbnail,
+	.column-product_thumbnail,
+	#product_id,
+	.column-product_id {
+		display: none;
+	}
+
+	.wp-list-table tr:not(.inline-edit-row):not(.no-items) td.column-product_thumbnail:not(.column-primary)::before,
+	.wp-list-table tr:not(.inline-edit-row):not(.no-items) td.column-product_id:not(.column-primary)::before {
+		position: relative;
+		width: auto;
+		left: 0;
+		top: 0;
+		margin-bottom: 8px;
+	}
+}
+
+
+/* タブ切り替え */
+
+input[name="tab_settings"],
+.tabs input[type="radio"]+label::before,
+.tabs input[type="radio"]:checked+label::after {
+	display: none;
+}
+
+.tabs input[type="radio"]+.tab_settings label {
+	font-size: 14px;
+	text-align: center;
+	display: block;
+	font-weight: normal;
+	transition: all 0.2s ease;
+	padding: 4px 0 4px 1px;
+	width: 100%;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+.tabs input[type="radio"]+.tab_settings {
+	width: 20%;
+	width: calc(100% / 5);
+	float: left;
+}
+
+.tabLabel {
+	color: #0272aa;
+	font-weight: bold;
+	background: transparent;
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0.04);
+	padding: 8px 16px;
+	border-top: 4px solid transparent;
+	font-size: 14px;
+	display: inline-block;
+}
+
+input[type="radio"]:checked+label .tabLabel {
+	background: #fff;
+	border-top-color: #0272aa;
+	cursor: default;
+}
+
+input[type="radio"]+label .tabLabel:hover {
+	color: #135e96;
+}
+
+input[type="radio"]:checked+label .tabLabel:hover {
+	color: #0272aa;
+}
+
+.tab_content {
+	display: none;
+	clear: both;
+	overflow: hidden;
+	background: #fff;
+	width: 100%;
+	padding: 16px 24px;
+	box-sizing: border-box;
+}
+
+#connectSettingsTab:checked~#connectSettings,
+#buttonSettingsTab:checked~#buttonSettings,
+#textSettingsTab:checked~#textSettings,
+#cssSettingsTab:checked~#cssSettings,
+#manualsTab:checked~#manuals{
+	display: block;
+}

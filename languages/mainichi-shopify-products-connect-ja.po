@@ -1,0 +1,935 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WSC Translation v1.0\n"
+"POT-Creation-Date: 2021-07-30 12:45+0900\n"
+"PO-Revision-Date: 2021-07-30 12:45+0900\n"
+"Last-Translator: \n"
+"Language-Team: MAINICHI WEB\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: functions\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: functions/cps_buy-button.php:17
+msgid "It is not connected to Shopify."
+msgstr "Shopifyと連携されていません。"
+
+#: functions/cps_buy-button.php:33
+msgid "Please specify the product ID."
+msgstr "商品IDを指定してください。"
+
+#: functions/cps_connect.php:293 functions/cps_products-list.php:172
+msgid "No product available"
+msgstr "商品がありません"
+
+#: functions/cps_connect.php:297
+msgid " Products have been connected"
+msgstr " 商品を連携しました"
+
+#: functions/cps_connect.php:302
+msgid "Failed to connect"
+msgstr "連携に失敗しました"
+
+#: functions/cps_create.php:14 functions/cps_create.php:15
+msgid "Product"
+msgstr "商品"
+
+#: functions/cps_create.php:35 functions/cps_create.php:36
+msgid "Product Type"
+msgstr "商品タイプ"
+
+#: functions/cps_create.php:49 functions/cps_create.php:50
+msgid "Tags"
+msgstr "タグ"
+
+#: functions/cps_create.php:63
+msgid "Product Image"
+msgstr "商品画像"
+
+#: functions/cps_create.php:64 shopify_settings.php:836
+msgid "Product ID"
+msgstr "商品ID"
+
+#: functions/cps_create.php:65
+msgid "Product Name"
+msgstr "商品名"
+
+#: functions/cps_create.php:66
+msgid "Price"
+msgstr "価格"
+
+#: functions/cps_create.php:67
+msgid "Total stock quantity"
+msgstr "合計在庫数"
+
+#: functions/cps_create.php:68
+msgid "Product type"
+msgstr "商品タイプ"
+
+#: functions/cps_create.php:69
+msgid "Author"
+msgstr "投稿者"
+
+#: functions/cps_create.php:70
+msgid "Date"
+msgstr "日付"
+
+#: functions/cps_create.php:142
+msgid "Shopify Connection"
+msgstr "Shopify連携"
+
+#: functions/cps_other.php:147
+msgid " All products have been deleted"
+msgstr "全商品を削除しました"
+
+#: functions/cps_other.php:151
+msgid "Failed to delete"
+msgstr "削除に失敗しました"
+
+#: mainichi-shopify-products-connect.php:43
+#, php-format
+msgid "<a href=\"%s\">Settings</a>"
+msgstr "<a href=\"%s\">設定</a>"
+
+#: shopify_settings.php:37
+msgid "You have been connected to the Shopify store."
+msgstr "Shopifyストアと連携されています。"
+
+#: shopify_settings.php:39
+#, php-format
+msgid "%s saved."
+msgstr "%sを保存しました。"
+
+#: shopify_settings.php:44
+msgid ""
+"You are not connected to the Shopify store.Please go to \"Shopify Connection "
+"Settings\"."
+msgstr ""
+"Shopifyストアと連携されていません。「Shopify連携設定」を行ってください。"
+
+#: shopify_settings.php:44
+msgid "Please see the \"Manual\" tab for details on how to connect."
+msgstr "連携方法は「マニュアル」タブをご覧ください。"
+
+#: shopify_settings.php:172 shopify_settings.php:547
+msgid "Cart"
+msgstr "カート"
+
+#: shopify_settings.php:173
+msgid "SUBTOTAL"
+msgstr "小計"
+
+#: shopify_settings.php:174
+msgid "Cart is empty."
+msgstr "カートは空です。"
+
+#: shopify_settings.php:176
+msgid "Checkout"
+msgstr "購入画面へ"
+
+#: shopify_settings.php:177
+msgid "Memo"
+msgstr "注文メモ"
+
+#: shopify_settings.php:179
+msgid "Add to cart"
+msgstr "カートに入れる"
+
+#: shopify_settings.php:180
+msgid "Buy now"
+msgstr "今すぐ購入する"
+
+#: shopify_settings.php:181
+msgid "View product"
+msgstr "商品詳細を見る"
+
+#: shopify_settings.php:182
+msgid "Out of Stock"
+msgstr "売り切れ"
+
+#: shopify_settings.php:267
+msgid "Connection Settings"
+msgstr "連携設定"
+
+#: shopify_settings.php:269 shopify_settings.php:398 shopify_settings.php:502
+msgid "Button Settings"
+msgstr "ボタン表示設定"
+
+#: shopify_settings.php:270 shopify_settings.php:510
+msgid "CSS Settings"
+msgstr "CSS設定"
+
+#: shopify_settings.php:271 shopify_settings.php:621 shopify_settings.php:675
+msgid "Text Settings"
+msgstr "テキスト設定"
+
+#: shopify_settings.php:273
+msgid "Manuals"
+msgstr "マニュアル"
+
+#: shopify_settings.php:276
+msgid "Shopify Connection Settings"
+msgstr "Shopify連携設定"
+
+#: shopify_settings.php:281
+msgid "Store Domain"
+msgstr "ストアURL"
+
+#: shopify_settings.php:285
+msgid "API key"
+msgstr "APIキー"
+
+#: shopify_settings.php:289
+msgid "Password"
+msgstr "パスワード"
+
+#: shopify_settings.php:293
+msgid "Shared Secret"
+msgstr "共有秘密"
+
+#: shopify_settings.php:297
+msgid "Storefront access token"
+msgstr "ストアフロントのアクセストークン"
+
+#: shopify_settings.php:302
+msgid "Connection settings"
+msgstr "連携設定"
+
+#: shopify_settings.php:304
+msgid "Save the connection settings"
+msgstr "連携設定を保存"
+
+#: shopify_settings.php:308
+msgid "Shopify products connection"
+msgstr "Shopify商品連携"
+
+#: shopify_settings.php:310
+msgid ""
+"Retrieve all products registered in the Shopify store and automatically "
+"register them in a custom WordPress post (product)."
+msgstr ""
+"Shopifyストアに登録されている全商品を取得し、WordPressのカスタム投稿（商品）"
+"に自動登録します。"
+
+#: shopify_settings.php:311 shopify_settings.php:321
+msgid "Do not enter"
+msgstr "入力しないでください"
+
+#: shopify_settings.php:314
+msgid "Connect products"
+msgstr "商品を連携する"
+
+#: shopify_settings.php:318
+msgid "Delete all connected products"
+msgstr "連携した全商品を削除"
+
+#: shopify_settings.php:320
+msgid ""
+"Delete all the products information of the Shopify store registered in the "
+"WordPress custom post (product)."
+msgstr ""
+"WordPressのカスタム投稿（商品）に登録したShopifyストアの全商品情報を削除しま"
+"す。"
+
+#: shopify_settings.php:355
+msgid "Delete all products"
+msgstr "全商品を削除する"
+
+#: shopify_settings.php:356 shopify_settings.php:1056
+msgid "*No connected products"
+msgstr "※連携されている商品はありません"
+
+#: shopify_settings.php:369
+msgid "Store Information"
+msgstr "ショップ情報"
+
+#: shopify_settings.php:372
+msgid "Store Name"
+msgstr "ショップ名"
+
+#: shopify_settings.php:376
+msgid "Operation Manager"
+msgstr "運営責任者"
+
+#: shopify_settings.php:380
+msgid "Address"
+msgstr "住所"
+
+#: shopify_settings.php:384
+msgid "Phone"
+msgstr "電話番号"
+
+#: shopify_settings.php:388
+msgid "Email"
+msgstr "メールアドレス"
+
+#: shopify_settings.php:401
+msgid "General"
+msgstr "基本"
+
+#: shopify_settings.php:405
+msgid "Layout Style"
+msgstr "レイアウトスタイル"
+
+#: shopify_settings.php:408
+msgid "Basic"
+msgstr "ベーシック"
+
+#: shopify_settings.php:409 shopify_settings.php:453 shopify_settings.php:463
+msgid "Classic"
+msgstr "クラシック"
+
+#: shopify_settings.php:410
+msgid "Full view"
+msgstr "フルビュー"
+
+#: shopify_settings.php:415
+msgid "Action when people click"
+msgstr "クリック時のアクション"
+
+#: shopify_settings.php:418
+msgid "Add product to cart"
+msgstr "カートに商品を追加するボタン"
+
+#: shopify_settings.php:419
+msgid "Direct to checkout"
+msgstr "チェックアウトに移動するボタン"
+
+#: shopify_settings.php:420
+msgid "Open product details"
+msgstr "商品の詳細を開く"
+
+#: shopify_settings.php:427 shopify_settings.php:560
+msgid "Layout"
+msgstr "レイアウト"
+
+#: shopify_settings.php:430
+msgid "Show quantity field"
+msgstr "数量フィールドの表示"
+
+#: shopify_settings.php:430 shopify_settings.php:441 shopify_settings.php:453
+#: shopify_settings.php:463 shopify_settings.php:517 shopify_settings.php:521
+#: shopify_settings.php:525 shopify_settings.php:529 shopify_settings.php:533
+#: shopify_settings.php:537 shopify_settings.php:541 shopify_settings.php:550
+#: shopify_settings.php:554 shopify_settings.php:563 shopify_settings.php:567
+#: shopify_settings.php:571 shopify_settings.php:575 shopify_settings.php:579
+#: shopify_settings.php:583 shopify_settings.php:587 shopify_settings.php:591
+#: shopify_settings.php:595 shopify_settings.php:599 shopify_settings.php:603
+#: shopify_settings.php:607
+msgid "("
+msgstr "（"
+
+#: shopify_settings.php:430
+msgid "Common to all layout styles"
+msgstr "全レイアウトスタイル共通"
+
+#: shopify_settings.php:430 shopify_settings.php:441 shopify_settings.php:453
+#: shopify_settings.php:463 shopify_settings.php:517 shopify_settings.php:521
+#: shopify_settings.php:525 shopify_settings.php:529 shopify_settings.php:533
+#: shopify_settings.php:537 shopify_settings.php:541 shopify_settings.php:550
+#: shopify_settings.php:554 shopify_settings.php:563 shopify_settings.php:567
+#: shopify_settings.php:571 shopify_settings.php:575 shopify_settings.php:579
+#: shopify_settings.php:583 shopify_settings.php:587 shopify_settings.php:591
+#: shopify_settings.php:595 shopify_settings.php:599 shopify_settings.php:603
+#: shopify_settings.php:607
+msgid ")"
+msgstr "）"
+
+#: shopify_settings.php:433 shopify_settings.php:466 shopify_settings.php:480
+msgid "Show"
+msgstr "表示する"
+
+#: shopify_settings.php:434 shopify_settings.php:467 shopify_settings.php:481
+msgid "Hide"
+msgstr "表示しない"
+
+#: shopify_settings.php:441
+msgid "Alignment"
+msgstr "アラインメント"
+
+#: shopify_settings.php:441
+msgid "Common to Basic & Classic"
+msgstr "ベーシック＆クラシック共通"
+
+#: shopify_settings.php:444
+msgid "Left"
+msgstr "左"
+
+#: shopify_settings.php:445
+msgid "Center"
+msgstr "中央"
+
+#: shopify_settings.php:446
+msgid "Right"
+msgstr "右"
+
+#: shopify_settings.php:453
+msgid "Image size"
+msgstr "画像サイズ"
+
+#: shopify_settings.php:456
+msgid "Small"
+msgstr "小"
+
+#: shopify_settings.php:457
+msgid "Medium"
+msgstr "中"
+
+#: shopify_settings.php:458
+msgid "Large"
+msgstr "大"
+
+#: shopify_settings.php:463
+msgid "Show additional product images"
+msgstr "他の商品画像の表示"
+
+#: shopify_settings.php:474 shopify_settings.php:624
+msgid "Shopping cart"
+msgstr "ショッピングカート"
+
+#: shopify_settings.php:477
+msgid "Show order note field"
+msgstr "注文のメモフィールドの表示"
+
+#: shopify_settings.php:488
+msgid "Advanced settings"
+msgstr "高度な設定"
+
+#: shopify_settings.php:491
+msgid "Checkout behaviour"
+msgstr "チェックアウトの動作"
+
+#: shopify_settings.php:494
+msgid "Open pop-up window"
+msgstr "ポップアップウィンドウを開く"
+
+#: shopify_settings.php:495
+msgid "Redirect in the same tab"
+msgstr "同じタブでリダイレクト"
+
+#: shopify_settings.php:504
+msgid "Save button settings"
+msgstr "ボタン表示設定を保存"
+
+#: shopify_settings.php:514
+msgid "Button"
+msgstr "ボタン"
+
+#: shopify_settings.php:517
+msgid "Button corners"
+msgstr "ボタンの角"
+
+#: shopify_settings.php:521
+msgid "Button width"
+msgstr "ボタンの幅"
+
+#: shopify_settings.php:525
+msgid "Button background color"
+msgstr "ボタンの背景色"
+
+#: shopify_settings.php:529
+msgid "Button hover background color"
+msgstr "マウスオーバー時のボタンの背景色"
+
+#: shopify_settings.php:533
+msgid "Button text color"
+msgstr "ボタンの文字色"
+
+#: shopify_settings.php:537
+msgid "Button text style"
+msgstr "ボタンの文字スタイル"
+
+#: shopify_settings.php:541
+msgid "Button text size"
+msgstr "ボタンの文字サイズ"
+
+#: shopify_settings.php:550
+msgid "Cart background color"
+msgstr "カートの背景色"
+
+#: shopify_settings.php:554
+msgid "Cart body text color"
+msgstr "カートの文字色"
+
+#: shopify_settings.php:563
+msgid "Product title text color"
+msgstr "商品名の文字色"
+
+#: shopify_settings.php:567
+msgid "Price text color"
+msgstr "価格の文字色"
+
+#: shopify_settings.php:571
+msgid "Variant text color"
+msgstr "バリエーションの文字色"
+
+#: shopify_settings.php:575
+msgid "Description text color"
+msgstr "説明の文字色"
+
+#: shopify_settings.php:579
+msgid "Product title text style"
+msgstr "商品名の文字スタイル"
+
+#: shopify_settings.php:583
+msgid "Price text style"
+msgstr "価格の文字スタイル"
+
+#: shopify_settings.php:587
+msgid "Variant text style"
+msgstr "バリエーションの文字スタイル"
+
+#: shopify_settings.php:591
+msgid "Description text style"
+msgstr "説明の文字スタイル"
+
+#: shopify_settings.php:595
+msgid "Product title text size"
+msgstr "商品名の文字サイズ"
+
+#: shopify_settings.php:599
+msgid "Price text size"
+msgstr "価格の文字サイズ"
+
+#: shopify_settings.php:603
+msgid "Variant text size"
+msgstr "バリエーションの文字サイズ"
+
+#: shopify_settings.php:607
+msgid "Description text size"
+msgstr "説明の文字サイズ"
+
+#: shopify_settings.php:613
+msgid "CSS settings"
+msgstr "CSS設定"
+
+#: shopify_settings.php:615
+msgid "Save CSS settings"
+msgstr "CSS設定を保存"
+
+#: shopify_settings.php:628
+msgid "Heading"
+msgstr "見出し"
+
+#: shopify_settings.php:632
+msgid "Subtotal"
+msgstr "小計"
+
+#: shopify_settings.php:636
+msgid "Order note"
+msgstr "注文メモ"
+
+#: shopify_settings.php:640
+msgid "Additional information"
+msgstr "追加情報"
+
+#: shopify_settings.php:644
+msgid "Checkout button"
+msgstr "チェックアウトボタン"
+
+#: shopify_settings.php:648
+msgid "Empty cart"
+msgstr "カートの中が空の場合"
+
+#: shopify_settings.php:654
+msgid "Cart button"
+msgstr "カートボタン"
+
+#: shopify_settings.php:657
+msgid "Add product to cart button"
+msgstr "カートに商品を追加するボタン"
+
+#: shopify_settings.php:661
+msgid "Direct to checkout button"
+msgstr "チェックアウトに移動するボタン"
+
+#: shopify_settings.php:665
+msgid "Open product details button"
+msgstr "商品の詳細を開くボタン"
+
+#: shopify_settings.php:669
+msgid "Out of stock"
+msgstr "売り切れ"
+
+#: shopify_settings.php:677
+msgid "Save the text settings"
+msgstr "テキスト設定を保存"
+
+#: shopify_settings.php:685
+msgid "How to Connect"
+msgstr "連携方法"
+
+#: shopify_settings.php:688
+msgid "Create Private app (Shopify side)"
+msgstr "プライベートアプリを作成（Shopify側）"
+
+#: shopify_settings.php:689
+msgid "First, you need to create a \"Private App\" on Shopify side."
+msgstr "始めに、Shopify側で「プライベートアプリ」を作成する必要があります。"
+
+#: shopify_settings.php:691
+msgid "Click \"Apps > Manage private apps\""
+msgstr "「アプリ管理 ＞ プライベートアプリを管理する」をクリック"
+
+#: shopify_settings.php:692
+msgid "Click \"Create private app\""
+msgstr "「プライベートアプリを作成する」をクリック"
+
+#: shopify_settings.php:693
+msgid "Enter any \"Private app name\" and \"Emergency developer email\""
+msgstr "任意の「プライベートアプリ名」と「緊急連絡用開発者メール」を入力"
+
+#: shopify_settings.php:694
+msgid ""
+"Check \"Allow this app to access your storefront data using the Storefront "
+"API\""
+msgstr ""
+"このアプリがストアフロントAPIを使用してストアフロントデータにアクセスできるよ"
+"うにする」をチェック"
+
+#: shopify_settings.php:695
+msgid "Check all items in \"STOREFRONT API PERMISSIONS\""
+msgstr "「ストアフロントAPI権限」の項目を全てチェック"
+
+#: shopify_settings.php:696
+msgid "Click \"Show inactive Admin API permissions\""
+msgstr "「非アクティブなAdmin API権限を表示する」をクリック"
+
+#: shopify_settings.php:697
+msgid "Set all displayed items to \"Read access\" or \"Read and write\""
+msgstr ""
+"表示される項目を全て「読み取りアクセス」もしくは「読み取りおよび書き込み」に"
+"する"
+
+#: shopify_settings.php:698
+msgid "Click on the \"Save\" button"
+msgstr "「保存」ボタンをクリック"
+
+#: shopify_settings.php:699
+msgid ""
+"Click on \"Create App\" in the pop-up that appears and your app is ready to "
+"be created"
+msgstr ""
+"表示されるポップアップの「アプリを作成する」をクリックしてアプリの作成完了"
+
+#: shopify_settings.php:703
+msgid "Plugin Settings (WordPress side)"
+msgstr "プラグインの設定（WordPress側）"
+
+#: shopify_settings.php:704
+msgid ""
+"Next, let's configure the WordPress side \"Connect Products with Shopify\"."
+msgstr ""
+"続いて、WordPress側「Connect Products with Shopify 」の設定を行います。先程の"
+"Shopifyページにあった情報を入力します。"
+
+#: shopify_settings.php:704
+msgid "Enter the information you found on the Shopify page earlier."
+msgstr "先程のShopifyページにあった情報を入力します。 "
+
+#: shopify_settings.php:706
+msgid "Enter the \"Store URL\""
+msgstr "「ストアURL」を入力"
+
+#: shopify_settings.php:706
+msgid ""
+"The \"Store URL\" is the domain of the store. For example, if the \"Example "
+"URL\" on the private app page is \"https://d2bdf71x8e271e3b09x078841d20aac9:"
+"shppa_13d6e67f8a6b5x83d6f10702e95865d6@xxxxxx-xxxxxxxxx. myshopify.com/admin/"
+"api/2021-07/orders.json\" is the \"<code>xxxxxx-xxxxxxxxx.myshopify.com</"
+"code>\" part."
+msgstr ""
+"「ストアURL」はショップのドメインです。例えば、プライベートアプリページ記載の"
+"「URLの例」が「https://d2bdf71x8e271e3b09x078841d20aac9:"
+"shppa_13d6e67f8a6b5x83d6f10702e95865d6@xxxxxx-xxxxxxxxx.myshopify.com/admin/"
+"api/2021-07/orders.json」の場合「<code>xxxxxx-xxxxxxxxx.myshopify.com</"
+"code>」の部分にあたります。"
+
+#: shopify_settings.php:707
+msgid ""
+"Enter the \"API key,\" \"Password,\" \"Shared Secret,\" and \"Storefront "
+"access token\" from the private app page in the \"Connection Settings\" "
+"section of the plugin settings page"
+msgstr ""
+"プラグインの設定ページの「連携設定」の項目に、プライベートアプリページにある"
+"「APIキー」・「パスワード」・「共有秘密」・「ストアフロントのアクセストーク"
+"ン」を入力"
+
+#: shopify_settings.php:708
+msgid "Click the \"Save the connection settings\" button"
+msgstr "「連携設定を保存」ボタンをクリック"
+
+#: shopify_settings.php:708
+msgid ""
+"If you see the message \"You have been connected to the Shopify store.\", "
+"the connection is complete."
+msgstr "「Shopifyストアと連携されています」と表示されれば連携完了です。"
+
+#: shopify_settings.php:712
+msgid "Products Connection (WordPress side)"
+msgstr "商品連携（WordPress側）"
+
+#: shopify_settings.php:713
+msgid ""
+"With just one click, you can add all your Shopify products to WordPress as a "
+"custom post."
+msgstr ""
+"ワンクリックでShopifyの全商品を、WordPressにカスタム投稿として登録できます。"
+
+#: shopify_settings.php:715
+msgid "Click the \"Shopify products connection\" button"
+msgstr "「商品を連携する」ボタンをクリック"
+
+#: shopify_settings.php:716
+msgid ""
+"Click \"Products\" in the left sidebar of the admin panel and check if your "
+"Shopify products are registered."
+msgstr ""
+"管理画面の左サイドバーの「商品」をクリックし、商品が登録さているか確認しま"
+"しょう。"
+
+#: shopify_settings.php:721
+#, php-format
+msgid ""
+"<a href=\"%s\" target=\"_blank\" rel=\"noopener\">Click here to see a video "
+"on how to connect.</a>"
+msgstr ""
+"<a href=\"%s\" target=\"_blank\" rel=\"noopener\">説明動画はこちらをご覧くだ"
+"さい。</a>"
+
+#: shopify_settings.php:727
+msgid "How to display Products list"
+msgstr "商品一覧の表示方法"
+
+#: shopify_settings.php:730 shopify_settings.php:884
+msgid "Shortcode"
+msgstr "ショートコード"
+
+#: shopify_settings.php:731
+msgid "You can use a shortcode to display a list of products."
+msgstr "ショートコードを使い商品一覧を表示できます。"
+
+#: shopify_settings.php:733 shopify_settings.php:890
+msgid "Code for use in template files."
+msgstr "テンプレートファイルで使用する場合のコード"
+
+#: shopify_settings.php:737 shopify_settings.php:894
+msgid "Available Attributes"
+msgstr "利用可能な属性"
+
+#: shopify_settings.php:738
+msgid "You can customize the products list display by setting the attributes."
+msgstr "属性を設定することで商品一覧表示をカスタマイズできます。"
+
+#: shopify_settings.php:742 shopify_settings.php:902
+msgid "Attributes"
+msgstr "属性"
+
+#: shopify_settings.php:743 shopify_settings.php:903
+msgid "Possible values"
+msgstr "可能な値"
+
+#: shopify_settings.php:744 shopify_settings.php:904
+msgid "Description"
+msgstr "説明"
+
+#: shopify_settings.php:750 shopify_settings.php:774 shopify_settings.php:870
+#: shopify_settings.php:943
+msgid "Any number (integer)"
+msgstr "任意の（整数）"
+
+#: shopify_settings.php:752
+msgid "Number of products to display per page"
+msgstr "1ページに表示する商品数を指定"
+
+#: shopify_settings.php:753 shopify_settings.php:761 shopify_settings.php:769
+#: shopify_settings.php:777 shopify_settings.php:785 shopify_settings.php:793
+#: shopify_settings.php:802 shopify_settings.php:812 shopify_settings.php:821
+#: shopify_settings.php:830 shopify_settings.php:839 shopify_settings.php:848
+#: shopify_settings.php:856 shopify_settings.php:864 shopify_settings.php:873
+#: shopify_settings.php:914 shopify_settings.php:925 shopify_settings.php:936
+#: shopify_settings.php:947 shopify_settings.php:957 shopify_settings.php:966
+#: shopify_settings.php:977 shopify_settings.php:987
+msgid "Default : "
+msgstr "初期値："
+
+#: shopify_settings.php:760 shopify_settings.php:923
+msgid "Action when the buy button is click"
+msgstr "購入ボタンクリック時のアクションを指定"
+
+#: shopify_settings.php:768 shopify_settings.php:934
+msgid "Alignment of the content"
+msgstr "コンテンツの整列を指定"
+
+#: shopify_settings.php:776
+msgid "Number of columns in the list"
+msgstr "一覧のカラム数を指定"
+
+#: shopify_settings.php:784 shopify_settings.php:956
+msgid "Show or hide variation selection"
+msgstr "バリエーション選択の表示・非表示を指定"
+
+#: shopify_settings.php:792 shopify_settings.php:964
+msgid "Show or hide the quantity field"
+msgstr "数量フィールドの表示・非表示を指定"
+
+#: shopify_settings.php:798 shopify_settings.php:973
+msgid "Any string"
+msgstr "任意の文字列"
+
+#: shopify_settings.php:800 shopify_settings.php:975
+msgid "Text for the Buy button"
+msgstr "購入ボタンの文字を指定"
+
+#: shopify_settings.php:803 shopify_settings.php:915 shopify_settings.php:926
+#: shopify_settings.php:937 shopify_settings.php:948 shopify_settings.php:967
+#: shopify_settings.php:978
+msgid "Set value"
+msgstr "設定されている値"
+
+#: shopify_settings.php:809
+msgid "Product type slug"
+msgstr "商品タイプのスラッグ"
+
+#: shopify_settings.php:809 shopify_settings.php:818 shopify_settings.php:827
+#: shopify_settings.php:836
+msgid "Multiple OK (comma separated)"
+msgstr "複数指定可能（カンマ区切り）"
+
+#: shopify_settings.php:811
+msgid "Product type to display"
+msgstr "表示する商品タイプを指定"
+
+#: shopify_settings.php:813
+msgid "All Product types"
+msgstr "全商品タイプ"
+
+#: shopify_settings.php:818
+msgid "Tag slug"
+msgstr "タグのスラッグ"
+
+#: shopify_settings.php:820
+msgid "Tags to display"
+msgstr "表示するタグを指定"
+
+#: shopify_settings.php:822
+msgid "All Tags"
+msgstr "全タグ"
+
+#: shopify_settings.php:827
+msgid "Vendor name"
+msgstr "販売元の名前"
+
+#: shopify_settings.php:829
+msgid "Vendor to display"
+msgstr "表示する販売元を指定"
+
+#: shopify_settings.php:831
+msgid "All Vendors"
+msgstr "全販売元"
+
+#: shopify_settings.php:838
+msgid "Product ID to display"
+msgstr "表示する商品IDを指定"
+
+#: shopify_settings.php:840
+msgid "All Products"
+msgstr "全商品"
+
+#: shopify_settings.php:847
+msgid "Show or hide out-of-stock products"
+msgstr "在庫切れ商品の表示・非表示を指定"
+
+#: shopify_settings.php:855
+msgid "Display order"
+msgstr "表示順を指定"
+
+#: shopify_settings.php:863
+msgid "Show or hide pagination"
+msgstr "ページネーションの表示・非表示を指定"
+
+#: shopify_settings.php:865
+msgid ""
+"*Pagination can be displayed only on Page (is_page) and archive page "
+"(is_archive)."
+msgstr ""
+"※ページネーションは固定ページ（is_page）・アーカイブページ（is_archive）での"
+"み表示可能です。"
+
+#: shopify_settings.php:872
+msgid "Number of pagination ranges to display"
+msgstr "表示するページネーション範囲数を指定"
+
+#: shopify_settings.php:878 shopify_settings.php:992
+msgid "Example of attribute use : "
+msgstr "属性の使用例 : "
+
+#: shopify_settings.php:881
+msgid "How to display Buy button"
+msgstr "購入ボタンの表示方法"
+
+#: shopify_settings.php:886
+msgid "You can use a shortcode to display a buy button."
+msgstr "ショートコードを使い購入ボタンを表示できます。"
+
+#: shopify_settings.php:887
+msgid "You need to specify the \"Product ID\"."
+msgstr "「商品ID」を指定する必要があります。"
+
+#: shopify_settings.php:896
+msgid "You can customize the buy button by setting attributes."
+msgstr "属性を設定することで購入ボタンをカスタマイズできます。"
+
+#: shopify_settings.php:897
+msgid ""
+"If the attribute is not used, the value set in \"Button Settings\" will be "
+"applied."
+msgstr "属性を使用しない場合、「ボタン表示設定」で設定した値が適用されます。"
+
+#: shopify_settings.php:912
+msgid "Display layout"
+msgstr "表示レイアウトを指定"
+
+#: shopify_settings.php:945
+msgid "Image width"
+msgstr "画像の幅を指定"
+
+#: shopify_settings.php:957
+msgid "or"
+msgstr "または"
+
+#: shopify_settings.php:986
+msgid "load the CSS for the Buy button"
+msgstr "購入ボタン用のCSSを読み込むかを指定"
+
+#: shopify_settings.php:1008
+msgid "Connecting products"
+msgstr "商品を連携しています"
+
+#: shopify_settings.php:1046
+msgid "Deleting products"
+msgstr "商品を削除しています"
+
+#~ msgid "View details"
+#~ msgstr "詳細を見る"
+
+#, php-format
+#~ msgid "More information about %s"
+#~ msgstr "%sの詳細については、こちらをご覧ください"
+
+#~ msgid "Check for updates"
+#~ msgstr "アップデートの確認"
+
+#, php-format
+#~ msgid "Unknown update checker status \"%s\""
+#~ msgstr "不明な更新チェックの状態「%s」"
+
+#~ msgid "There is no changelog available."
+#~ msgstr "変更履歴はありません。"
